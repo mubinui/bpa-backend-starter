@@ -17,11 +17,11 @@ java {
 repositories {
     mavenCentral()
     maven {
-        url "https://gitlab.bracits.com/api/v4/groups/217/-/packages/maven"
+        url "bractits-rep"
         name "GitLab"
         credentials(HttpHeaderCredentials) {
             name = 'Deploy-Token'
-            value = 'tBVfCvhS2A8T_zhKWy1D'
+            value = 'sometoken'
         }
         authentication {
             header(HttpHeaderAuthentication)
