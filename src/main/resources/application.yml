@@ -1,0 +1,3 @@
+bpaclient:
+  events:
+    NameOfTheKey: com.bracits.usis.adp.event.workflow.AdmissionProcessPublishWorkflowActionEvent
