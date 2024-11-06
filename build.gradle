@@ -27,17 +27,7 @@ repositories {
             header(HttpHeaderAuthentication)
         }
     }
-//    maven {
-//        url "https://gitlab.bracits.com/api/v4/groups/1233/-/packages/maven"
-//        name "GitLab"
-//        credentials(HttpHeaderCredentials) {
-//            name = 'Deploy-Token'
-//            value = 'nYjrRzz7svnPEcfmBLzN'
-//        }
-//        authentication {
-//            header(HttpHeaderAuthentication)
-//        }
-//    }
+
 }
 
 dependencies {
