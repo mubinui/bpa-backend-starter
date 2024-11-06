@@ -18,7 +18,10 @@ public class WorkflowRestController {
     this.workflowService = workflowService;
   }
 
-  /** API to Update an Remarks. */
+  /**
+   * Perform workflow action.
+   * add swagger for getting swagger documentation
+   */
   @PostMapping("/v1/workflow/perform")
 //  @Operation(summary = "Perform workflow action", description = "Perform workflow action",
 //      responses = {@ApiResponse(content = @Content(mediaType = "application/json",
